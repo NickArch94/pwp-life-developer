@@ -1,0 +1,74 @@
+html {
+    background-color: #5a5653;
+}
+
+body {
+    font-family: Futura, "Helvetica Neue", "Times New Roman", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 80px;
+    margin-right: 80px;
+    --padding: 40px;
+    padding: var(--padding);
+    background-color: #bc8b71;
+
+    box-shadow: inset 0 0 0 var(--padding) #5A5653FF;
+}
+
+.title {
+    background-image: linear-gradient(to top right, #ccc, #805a43);
+    border-radius: 50px;
+    border: 5px solid grey;
+    padding: 18px;
+    margin: 15px;
+    margin-bottom: 08px;
+}
+
+p {
+    margin-top: 2em;
+}
+
+.purpose\/audience h2 {
+    text-align: center;
+}
+
+.purpose\/audience {
+    width: 70%;
+    height: 70%;
+    margin-top: 1em;
+}
+
+.persona h2 {
+    text-align: center;
+}
+
+.persona {
+    width: 70%;
+    height: 70%;
+    margin-bottom: 3em;
+}
+
+.persona-container p {
+    text-align: center;
+    margin-top: 0;
+}
+
+.user-story h2 {
+    text-align: center;
+    margin: 2px;
+}
+
+.user-story {
+    padding: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #ccc;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    width: 70%;
+    height: 70%;
+}
